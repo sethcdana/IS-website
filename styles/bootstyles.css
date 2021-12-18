@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+@media (max-width:600px){
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #4D5061;
+
+}
+
+
+.tabhead {
+    background-color: #e5e5e5;
+    padding:30px;
+    opacity: .8;
+    top: 0px;
+}
+.tabhead:hover {
+    transform: scale(1.05);
+    cursor:pointer;
+
+}
+.tabhead h2{
+    font-size: 35px;
+    color: #14213d;
+    text-align: center;
+}
+.tabhead ul {
+    font-size: 15px;
+    text-align:center;
+}
+
+.tabmain {
+    width: 100%;
+    min-height: 600px;
+}
+p {
+    color: #e5e5e5;
+}
+.tabfoot{
+    background-color: #e5e5e5;
+    padding:10px 10px 0px 10px;
+    text-align:center;
+    color:#14213d;
+    opacity: .8;
+    bottom: 0;
+    width: 100%;
+    height:60px;
+    position: fixed;
+  }
+.tabfoot:hover {
+    transform:scale(1.05);
+    cursor:pointer;
+}
+
+
+
+
+

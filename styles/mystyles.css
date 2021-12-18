@@ -1,0 +1,33 @@
+
+.ai{
+    color: rgb(1, 66, 15);
+    margin-left: 20px;
+  }
+  
+.oi{
+    color: rgb(16, 28, 80);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+.pi{
+    color: rgb(104, 101, 101);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.bolddd{
+    font-style: italic;
+}
+
+
+.pictures{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tabmenu{
+  top: 5px;
+  left: 5px;
+  right: 5px;
+
+}
